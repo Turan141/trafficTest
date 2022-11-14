@@ -1,0 +1,35 @@
+{
+	"compilerOptions": {
+		"target": "es5",
+		"lib": ["dom", "es2015"],
+		"jsx": "react",
+		"module": "commonjs",
+		"moduleResolution": "node",
+		"baseUrl": "./",
+		"paths": {
+			"@api/*": ["./src/api/*"],
+			"@assets/*": ["./src/assets/*"],
+			"@bus/*": ["./src/bus/*"],
+			"@components/*": ["./src/components/*"],
+			"@enums/*": ["./src/enums/*"],
+			"@interfaces/*": ["./src/interfaces/*"],
+			"@layouts/*": ["./src/layouts/*"],
+			"@pages/*": ["./src/pages/*"],
+			"@redux/*": ["./src/redux/*"],
+			"@routes/*": ["./src/routes/*"],
+			"@theme/*": ["./src/theme/*"],
+			"@utils/*": ["./src/utils/*"]
+		},
+		"types": ["react/next", "react-dom/next", "node"],
+		"resolveJsonModule": true,
+		"allowJs": true,
+		"sourceMap": true,
+		"isolatedModules": false,
+		"allowSyntheticDefaultImports": true,
+		"esModuleInterop": true,
+		"forceConsistentCasingInFileNames": true,
+		"strict": true,
+		"noFallthroughCasesInSwitch": true,
+		"skipLibCheck": true
+	}
+}
